@@ -1,0 +1,230 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>SukaPOS - Multi Store Point Of Sales</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Sukadroid Dev">
+	<meta name="copyright" content="Sukadroid Dev">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2018-10-25T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EEEEEE;color:#383838;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);background-size:100px;}
+		a{color:#008C9E;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #008C9E #008C9E #bfbfbf;
+		  background-color: #006673;
+		}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#343838;color:#FFFFFF;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #494F4F;-moz-text-shadow:1px 1px 0px #494F4F;text-shadow:1px 1px 0px #494F4F;}
+		#documenter_sidebar ul{border-top:1px solid #212424;}
+		#documenter_sidebar ul a{border-top:1px solid #494F4F;border-bottom:1px solid #212424;color:#FFFFFF;}
+		#documenter_sidebar ul a:hover{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_sidebar ul a.current{background:#333636;color:#00DFFC;border-top:1px solid #333636;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-sukapos">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#instalasi" title="Instalasi">Instalasi</a></li>
+			<li><a href="#htaccess" title=".htaccess">.htaccess</a></li>
+			<li><a href="#base_url" title="Base URL">Base URL</a></li>
+			<li><a href="#setting_database" title="Setting Database">Setting Database</a></li>
+			<li><a href="#akun_default" title="Akun Default">Akun Default</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Sukadroid Dev 2018<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>SukaPOS</h1>
+	<h2>Multi Store Point Of Sales</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 03/10/2011</li>
+	<li>latest update: 10/25/2018</li>
+	<li>by: Sukadroid Dev</li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#115;&#117;&#107;&#97;&#100;&#114;&#111;&#105;&#100;&#46;&#99;&#111;&#109;">&#105;&#110;&#102;&#111;&#64;&#115;&#117;&#107;&#97;&#100;&#114;&#111;&#105;&#100;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>SukaPOS adalah aplikasi Point Of Sales yang mendukung beberapa toko sekaligus. Dengan SukaPOS, anda mampu menangani beberapa tagihan sekaligus, menahan tagihan (hold), mencari produk langsung dari layar POS, mendukung Barcode Scanner, dan masih banyak lagi.<br><br>Terima kasih telah membeli produk kami. Jika anda memiliki pertanyaan yang berada di luar lingkup file bantuan ini, silakan kirim email ke &#105;&#110;&#102;&#111;&#64;&#115;&#117;&#107;&#97;&#100;&#114;&#111;&#105;&#100;&#46;&#99;&#111;&#109;. Terima kasih banyak!<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<ul>
+	<li>Software Version: 2.0.1</li>
+	<li>Software Framework : Codeigniter 3.0.1</li>
+	<li>PHP Version : 5.6</li>
+	<li>Responsive Design : Yes</li>
+	</ul></p>
+	</section>
+	
+	<section id="instalasi">
+	<div class="page-header"><h3>Instalasi</h3><hr class="notop"></div>
+<p>
+	Setelah anda mendownload project, silahkan upload semua file &amp; folder yang terdapat di <strong>Folder Project</strong> ke <strong>Direktori Server</strong> anda.</p>
+<p>
+	Perlu diingat bahwa SukaPOS dapat berjalan Online maupun di Server Lokal.</p>
+<h2>
+	&nbsp;</h2>
+</section>
+<section id="htaccess">
+	<div class="page-header"><h3>.htaccess</h3><hr class="notop"></div>
+<h2>
+	<span style="font-size: 12px;">Buat file&nbsp;</span><strong style="font-size: 12px;">.htaccess</strong><span style="font-size: 12px;">&nbsp;di&nbsp;</span><strong style="font-size: 12px;">Direktori Server</strong><span style="font-size: 12px;">&nbsp;anda, dan masukan kode berikut :</span></h2>
+<pre style="border-width: 0px; border-style: initial; border-color: initial; background-image: url(&quot;../../_img/pre_bg.png&quot;); font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 13px; line-height: 1.5; font-family: &quot;andale mono&quot;, &quot;lucida console&quot;, monospace; margin-top: 1.5em; margin-bottom: 1.5em; padding: 0px; vertical-align: baseline;">
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]</pre>
+<p>
+	<img alt="" src="assets/images/image_9.png" style="width: 85%;"></p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="base_url">
+	<div class="page-header"><h3>Base URL</h3><hr class="notop"></div>
+<h2>
+	<span style="font-size: 12px;">Buka folder application/config/config.php dan cari&nbsp;$config[&#39;base_url&#39;] = &#39;http://........ di line 27 dan ubah menjadi URL project anda.</span></h2>
+<p>
+	<img alt="" src="assets/images/image_2.png" style="width: 85%;"></p>
+<div>
+	&nbsp;</div>
+</section>
+<section id="setting_database">
+	<div class="page-header"><h3>Setting Database</h3><hr class="notop"></div>
+<h2>
+	<span style="font-size: 12px;">Buat database di Phpmyadmin dan berikan nama sesuai keinginan anda, dan import&nbsp;</span><strong style="font-size: 12px;">sukapos.sql&nbsp;</strong><span style="font-size: 12px;">yang ada di direkrtori project kedalam database yang baru anda buat.</span></h2>
+<p>
+	<img alt="" src="assets/images/image_3.png" style="width: 85%;"></p>
+<p>
+	<img alt="" src="assets/images/image_4.png" style="width: 85%;"></p>
+<p>
+	<img alt="" src="assets/images/image_5.png" style="width: 85%;"></p>
+<p>
+	<img alt="" src="assets/images/image_6.png" style="width: 85%;"></p>
+<p>
+	<img alt="" src="assets/images/image_7.png" style="width: 85%;"></p>
+<p>
+	<img alt="" src="assets/images/image_8.png" style="width: 85%;"></p>
+<div>
+	<h2>
+		<span style="font-size: 12px;">Selanjutnya buka application/config/database.php dan sesuaikan nama database dan koneksi database anda.</span></h2>
+</div>
+<p>
+	<img alt="" src="assets/images/image_10.png" style="width: 85%;"></p>
+</section>
+<section id="akun_default">
+	<div class="page-header"><h3>Akun Default</h3><hr class="notop"></div>
+<p>
+	<b style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; font-size: 12.8px;">Admin (Owner) Login</b></p>
+<ul style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 12.8px; font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; vertical-align: baseline;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+		Username : &#111;&#119;&#110;&#101;&#114;&#64;&#115;&#117;&#107;&#97;&#112;&#111;&#115;&#46;&#99;&#111;&#109;</li>
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+		Password : owner</li>
+</ul>
+<p>
+	<br style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; font-size: 12.8px;">
+	<b style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; font-size: 12.8px;">Suka Mart (Store No. 1)</b></p>
+<ul style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 12.8px; font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; vertical-align: baseline;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+		<b>Manager</b>
+		<ul style="margin: 0px 1.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline; list-style-type: disc;">
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Username : &#109;&#97;&#110;&#97;&#103;&#101;&#114;&#49;&#64;&#115;&#117;&#107;&#97;&#112;&#111;&#115;&#46;&#99;&#111;&#109;</li>
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Password : manager1</li>
+		</ul>
+	</li>
+</ul>
+<ul style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 12.8px; font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; vertical-align: baseline;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+		<b>Cashier</b>
+		<ul style="margin: 0px 1.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline; list-style-type: disc;">
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Username : &#107;&#97;&#115;&#105;&#114;&#49;&#64;&#115;&#117;&#107;&#97;&#112;&#111;&#115;&#46;&#99;&#111;&#109;</li>
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Password : kasir1</li>
+		</ul>
+	</li>
+</ul>
+<p>
+	<br style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; font-size: 12.8px;">
+	<b style="font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; font-size: 12.8px;">Suka Toko (Store No. 2)</b></p>
+<ul style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 12.8px; font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; vertical-align: baseline;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+		<b>Manager</b>
+		<ul style="margin: 0px 1.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline; list-style-type: disc;">
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Username : &#109;&#97;&#110;&#97;&#103;&#101;&#114;&#50;&#64;&#115;&#117;&#107;&#97;&#112;&#111;&#115;&#46;&#99;&#111;&#109;</li>
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Password : manager2</li>
+		</ul>
+	</li>
+</ul>
+<ul style="margin: 0px 1.5em 1.5em 3.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-size: 12.8px; font-family: &quot;Helvetica Neue&quot;, Arial, Helvetica, sans-serif; vertical-align: baseline;">
+	<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+		<b>Cashier</b>
+		<ul style="margin: 0px 1.5em; padding-right: 0px; padding-left: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline; list-style-type: disc;">
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Username : &#107;&#97;&#115;&#105;&#114;&#50;&#64;&#115;&#117;&#107;&#97;&#112;&#111;&#115;&#46;&#99;&#111;&#109;</li>
+			<li style="margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; font-size: 12.8px; font-family: inherit; vertical-align: baseline;">
+				Password : kasir2</li>
+		</ul>
+	</li>
+</ul>
+</section>
+
+	</div>
+</body>
+</html>
